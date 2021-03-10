@@ -2,51 +2,51 @@
 
 /* 回答はここに書いてね */
 
-.q4__contents{
+.q4__contents {
   background-color: #ecf1f2;
   padding: 20px;
   box-sizing: border-box;
 }
 
-.q4__contents__box{
+.q4__contents__box {
   display: table;
   width: 100%;
   margin-top: 20px ;
 }
 
-.q4__contents__box:first-child{
+.q4__contents__box:first-child {
   margin-top: 0;
 }
 
-.q4__contents__cell{
+.q4__contents__cell {
   display: table-cell;
   padding: 20px 0;
   text-align: center;
 }
 
-.is-pink{
+.is-pink {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.is-purple{
+.is-purple {
 background-color: #e0abd9;
 }
 
-.is-blue{
+.is-blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.is-yellow{
+.is-yellow { 
   background-color: #e5d32e;
 }
 
-.is-red{
+.is-red {
 background-color:  #ec8f9a;
 }
 
-.is-green{
+.is-green {
  width: 500px;
  background-color: #8fdcad;
 }

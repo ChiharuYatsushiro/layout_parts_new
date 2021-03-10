@@ -7,7 +7,7 @@
   clear: both;
 } 
 
-.q1__content{
+.q1__content {
   width: 900px;
   background-color: #eff3f4;
   margin: 0 auto;
@@ -22,7 +22,7 @@
   margin-left: 20px; 
 }
 
-.q1__content__text{
+.q1__content__text {
   font-size: 16px;
   line-height: 16px;
   background-color: #eaf4ff;

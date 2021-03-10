@@ -4,46 +4,46 @@
 
 
 /* 1 */
-.q6__box__text{
+.q6__box__text {
  width: 90px;
  padding: 10px 0;
  background-color: #e6f2ff;
  text-align: center;
 }
 
-.q6__box__inner{
+.q6__box__inner {
   text-align: center;
 }
 
-.is-textaligin{
+.is-textaligin {
   display: inline-block;
 }
 
-.is-margin{
+.is-margin {
   margin: 0 auto;
 }
 
 /* 2 */
-.q6__around{
+.q6__around {
   display: table;
 }
 
-.q6__around__box{
+.q6__around__box {
   display: table-cell;
   text-align: center; 
   vertical-align: middle;
 }
 
-.is-table{
+.is-table {
   display: inline-block;  
 }
 
-.q6__around__text{
+.q6__around__text {
   padding: 10px;
   background-color: #fff;
 }
 
-.q6__around__flex{
+.q6__around__flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,11 +51,11 @@
 
 /* 3 */
 
-.q6__position__box{
+.q6__position__box {
   position: relative;
 }
 
-.q6__position__stable{
+.q6__position__stable {
   position: absolute;
   top: 0;
   left: 0;
