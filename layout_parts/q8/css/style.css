@@ -4,7 +4,6 @@
 
 /* 1 */
 
-
 .q8__transition {
   position: relative;
   width: 500px;
@@ -13,9 +12,9 @@
   overflow: hidden;
   cursor: pointer;
 }
-
 .q8__transition__after{
   position: absolute;
+  bottom: -100%;
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8)); 
@@ -24,8 +23,8 @@
 .q8__transition__text {
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
   font-size: 16px;
   line-height: 16px;
   padding: 20px;
@@ -36,12 +35,33 @@
 .q8__image{
   transition: 0.5s;
 }
-.q8__image:hover {
+.q8__transition:hover .q8__image {
   transform:scale(1.5);
 }
-
 .q8__transition:hover .q8__transition__after {
   bottom: 0;
+}
+
+/* 2 */
+
+.q8__loder{
+  margin: 0 auto;
+  border:10px solid #ecf1f2;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-top: 10px solid #00bcd4;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg); 
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
 }
 
 /* 回答はここに書いてね */

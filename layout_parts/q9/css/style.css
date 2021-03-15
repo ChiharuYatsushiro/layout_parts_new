@@ -2,4 +2,40 @@
 
 /* 回答はここに書いてね */
 
+.q9__balloon {
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  background: #FFF;
+  border: solid 5px #222;
+  border-radius: 30px;
+  padding: 20px;
+}
+.q9__balloon:after, .q9__balloon:before {
+	top: 100%;
+	left: 9.3%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+}
+
+.q9__balloon:after {
+	border-top-color: #fff;
+	border-width: 18px;
+	margin-left: -18px;
+}
+.q9__balloon:before { 
+	border-top-color: #222;
+	border-width: 25px;
+	margin-left: -25px;
+}
+
+.q9__text {
+  font-size: 16px;
+  line-height: 16px;
+  color: #222;
+}
+
 /* 回答はここに書いてね */
